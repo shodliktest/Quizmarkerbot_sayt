@@ -8,8 +8,8 @@
    2. API_URL       → Streamlit app URL (deploy qilgandan keyin)
    ================================================================ */
 
-const BOT_USERNAME = window.TESTPRO_BOT  || 'YourBotUsername';   // ← o'zgartiring
-const API_URL      = (window.TESTPRO_API || 'https://your-app.streamlit.app').replace(/\/$/, '');
+const BOT_USERNAME = window.TESTPRO_BOT  || 'Quizmarkerbot';   // ← o'zgartiring
+const API_URL      = (window.TESTPRO_API || 'https://webapiquizmarkerbot.streamlit.app').replace(/\/$/, '');
 
 /* ── Navigation ── */
 const BASE_PATH = (() => {
